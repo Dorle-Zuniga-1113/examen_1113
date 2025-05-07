@@ -1,26 +1,26 @@
 # examen_1113
 - pantalla ini
 - ![image](https://github.com/user-attachments/assets/c9c85dfc-ecdc-40a2-9398-93153aae6786)
-
-- ![image](https://github.com/user-attachments/assets/a51e429e-afdb-489c-bdbb-1358ef844e85)
-- ![image](https://github.com/user-attachments/assets/0f8887bf-707d-49f7-aec8-4086ab602b00)
-- ![image](https://github.com/user-attachments/assets/5118ddf9-538f-48dd-87ad-9eabeaf169b5)
-- ![image](https://github.com/user-attachments/assets/4c9025b6-3980-46f8-9a67-3ef83d910a12)
-![image](https://github.com/user-attachments/assets/ba44e4e3-171e-47ce-9b16-0a382e3c0573)
-
-- ![image](https://github.com/user-attachments/assets/e592c549-dcc4-41a0-95d7-4625c1f9f230)
-- ![image](https://github.com/user-attachments/assets/07f41347-9527-44d7-b32f-4052839f3736)
-
-- 
+- ![image](https://github.com/user-attachments/assets/9738a8c6-51e5-4311-9106-6bf7b9c4543b)
+- ![image](https://github.com/user-attachments/assets/e65fffd6-61d8-46c8-a998-224ccc620961)
+- ![image](https://github.com/user-attachments/assets/9023e3f9-f837-4f95-987c-762db392bd60)
+- ![image](https://github.com/user-attachments/assets/7322631b-6e60-49e2-9e84-52d7aa5cbc70)
+- ![image](https://github.com/user-attachments/assets/2a22efd8-df02-45cd-8912-c0a8d297c40b)
+- ![image](https://github.com/user-attachments/assets/fdb18ec6-0963-4aaf-82df-7a5fbc74921d)
+- ![image](https://github.com/user-attachments/assets/9f114eae-6f7c-4367-b6a2-8406a2f0547a)
+- ![image](https://github.com/user-attachments/assets/f6e75678-cd5f-422e-b3b7-800c11855773)
 
 
 
-- 
 
 
-- 
 
-- 
+
+
+
+
+
+
 
 
 A new Flutter project created with FlutLab - https://flutlab.io
