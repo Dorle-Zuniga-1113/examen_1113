@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screen2.dart';
 
 class Screen1 extends StatelessWidget {
   const Screen1({Key? key}) : super(key: key);
@@ -7,17 +8,32 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Screen 1'),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () => Navigator.pop(context),
+        backgroundColor: Colors.red,
+        title: const Text(
+          'Screen 1',
         ),
       ),
       body: Center(
         child: ElevatedButton(
-          child: const Text('Ir a Screen 2'),
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.blue,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+          child: const Text(
+            'Go Forwards To Screen 2',
+            style: TextStyle(fontSize: 20),
+          ),
           onPressed: () {
-            Navigator.pushNamed(context, '/second');
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) {
+                  return const Screen2();
+                },
+              ),
+            );
           },
         ),
       ),
