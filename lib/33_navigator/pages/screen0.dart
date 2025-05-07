@@ -7,39 +7,25 @@ class Screen0 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
         title: const Text('Screen 0'),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => Navigator.pop(context), // Regresa a PantallaUno
+        ),
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.red,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
-                ),
-              ),
-              child: const Text(
-                'Go To Screen 1',
-                style: TextStyle(fontSize: 20),
-              ),
+              child: const Text('Ir a Screen 1'),
               onPressed: () {
                 Navigator.pushNamed(context, '/first');
               },
             ),
+            const SizedBox(height: 15),
             ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
-                ),
-              ),
-              child: const Text(
-                'Go To Screen 2',
-                style: TextStyle(fontSize: 20),
-              ),
+              child: const Text('Ir a Screen 2'),
               onPressed: () {
                 Navigator.pushNamed(context, '/second');
               },
